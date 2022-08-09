@@ -1,4 +1,4 @@
-FROM node:12.18
+FROM node:16
 WORKDIR /usr/src/lights-toggle-api
 COPY . .
 RUN npm install
